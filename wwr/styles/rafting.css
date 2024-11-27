@@ -1,0 +1,47 @@
+:root {
+    font-family: sans-serif, roboto;
+   /* color: #10FFCB;
+    color: #FCE4D8;
+    color: #F75590;
+    color: #B8F8FE;
+    color: #FBD87F;
+}*/
+a {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+}
+-hero h1 {
+    position: absolute;
+}
+.hero article {
+    position: absolute;
+}
+.hero article img {
+    width: 20%;
+    float: right;
+    margin: 0 0 15px 15px; ;
+    border: 1px solid black;
+}
+.hero article p {
+    background-color: lightgreen;
+    color: rgb(117, 110, 110);
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.hero section img {
+    width: 20%
+    height: auto;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hero section h2 {
+    padding-bottom: 10px; 
+}
+.hero section p {
+    color: brown;
+    background-color: lightyellow ;
+}
+
