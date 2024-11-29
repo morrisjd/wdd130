@@ -1,47 +1,68 @@
 :root {
     font-family: sans-serif, roboto;
-   /* color: #10FFCB;
-    color: #FCE4D8;
-    color: #F75590;
-    color: #B8F8FE;
-    color: #FBD87F;
-}*/
+    /* Colours have been commented out because
+       I do not want to use them after all. They
+       looked ok in the coolors.co display, but
+       using them practically does not look good.
+       I have placed to coding here to fulfil the
+       purposes of the assignment.
+      color: #10FFCB;
+      color: #FCE4D8;
+      color: #F75590;
+      color: #B8F8FE;
+      color: #FBD87F; 
+    */
+}
 a {
     text-decoration: none;
 }
+/* I have tried every trick I could think of to get
+   company name and mission statements to overlay the
+   main image, but have failed. Any advice on where I 
+   have gone wrong would be appreciated.
+*/
 .hero {
     position: relative;
+} 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
--hero h1 {
+-overlay h1 {
+    position: absolute;
+    background-color: darkgray;
+    color: yellow;
+}
+.overlay article {
     position: absolute;
 }
-.hero article {
-    position: absolute;
-}
-.hero article img {
+.overlay article img {
     width: 20%;
     float: right;
     margin: 0 0 15px 15px; ;
     border: 1px solid black;
 }
 .hero article p {
-    background-color: lightgreen;
-    color: rgb(117, 110, 110);
-    text-align: justify;
-    padding-bottom: 20px;
+    background-color:green;
+    color: white;
 }
-.hero section img {
-    width: 20%
+.history h2 {
+    display: block;
+    padding-top: 120px; 
+}
+.history p {
+    display: block;
+    padding-top: 10px;
+    color: brown;
+    background-color: lightyellow ;
+}
+.adventure img {
+    width: 20%;
     height: auto;
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.hero section h2 {
-    padding-bottom: 10px; 
-}
-.hero section p {
-    color: brown;
-    background-color: lightyellow ;
-}
+
 
