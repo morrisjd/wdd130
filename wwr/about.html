@@ -4,57 +4,91 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>John Morris | White Water Rafting</title>
+        <meta name="description" content="Website for Dragon Rafting company">
+        <meta name="author" content="John Morris">
         <link rel="stylesheet" href="styles/rafting.css">
-        <link rel="prerconnect" href="https://fonts.google.com">
+        <link rel="preconnect" href="https://fonts.google.com">
         <link rel="preconnect" href="https://gstatic.com" crossorigin>
         <link href="fonts.google.com/roboto">
     </head>
     <body>
+      <div class="container">
         <header>
-            <img src="images/rafting-logo.png" alt="Rafting rafting-logogo">
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Page 1</a>
-                <a href="#">Page 2</a>
-                <a href="#">Page 3</a>
+            <img src="images/rafting-logo.png" alt="Rafting rafting-logo">
+            <nav> 
+                <ul id="buttons">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
             </nav>
         </header>
         <main>
-            <div class="hero">
-                <img src="images/hero-img.jpg" alt="Example of rafting on river">
-                <section class="overlay">
-                    <h1>Dragon Rafting Company</h1>
-                    <article>
-                        <img src="images/smiling-customer.png" alt="Happy customer!">
-                        <p>Our mission is to provide a safe, yet exciting, fun filled 
-                            activity for all ages groups, whether 8 or 80!</p>
-                    </article>
-                </section>
+            <div class="about">
+                <h1>Dragon Rafting Company</h1>
+                <article> 
+                    <p>Our mission is to provide a safe, yet exciting, fun filled 
+                        activity for all age groups, whether 8 or 80!
+                        All our instructors are well trained in all aspects of water 
+                        activities including safety and first aid  procedures. You 
+                        can be assured you will be well looked after.
+                    </p>
+                    <img src="images/smiling-customer.png" alt="Happy customer!">
+                </article>
             </div>    
             <section class="history">
                 <h2>History</h2>
-                <p>There are not many places in Britain that have rivers that 
+                <article>
+                <div class="text1">
+                <p>
+                    There are not many places in Britain that have rivers that 
                     are fast flowing or wide enough to facilitate White Water
-                    rafTing. Yet John Morris, his brother Robert and friend, Ken 
-                    Cunningham located such a place high in the Welsh Cambian 
+                    rafting. Yet John Morris, his brother Robert and friend, Ken 
+                    Cunningham located such a place high in the Welsh Cambrian 
                     Mountain range in the head waters of the river Severn, the 
-                    longest river in the United Kingdom. The three friends have 
-                    gained much expertise in all facets of rafting, working overseas
-                    in both the USA and Peru. With the approval of the Welsh 
-                    Government, the Welsh Tourist Board and holding all the necessary
-                    safety certificates, the friends were able to get financial backing
-                    from Lloyds Bank and the Dragon Rafting Company was formed.
+                    longest river in the United Kingdom.
                 </p>
+                </div>
+                <div class="river">
+                    <img src="images/our-river.jpg" alt="Our river"> 
+                </div>                   
+                <div class="text2">
+                <p> The three friends have gained much expertise in all facets of
+                    rafting, working overseas in both the USA and Peru. With the 
+                    approval of the Welsh Government, the Welsh Tourist Board and 
+                    holding all the necessary afety certificates, the friends were
+                    able to get financial backing rom Lloyds Bank and the Dragon 
+                    Rafting Company was formed.
+                </p>
+                </div>
+                </article>
             </section>
             <section class="adventure">
                 <h2>Adventure Awaits You</h2>
-                <img src="images/rafting-picture-1.jpg" alt="Rafting Picture 1">
-                <img src="images/rafting-picture-2.jpg" alt="Rafting Picture 2">
-                <img src="images/rafting-picture-3.jpg" alt="Rafting Picture 3">
-                <img src="images/rafting-picture-4.jpg" alt="Rafting Picture 4">
-                <img src="images/rafting-picture-5.jpg" alt="Rafting Picture 5">     
-            </section>
-            
+                <div class="figures">
+                    <figure>
+                        <img src="images/rafting-picture-1.jpg" alt="Rafting Picture 1">
+                        <figcaption>Caption 1</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting-picture-2.jpg" alt="Rafting Picture 2">
+                        <figcaption>Caption 2</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting-picture-3.jpg" alt="Rafting Picture 3">
+                        <figcaption>Caption 3</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting-picture-4.jpg" alt="Rafting Picture 4">
+                        <figcaption>Caption</Caption> 4</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting-picture-5.jpg" alt="Rafting Picture 5">     
+                        <figcaption>Caption 5</figcaption>
+                    </figure>
+                </div>
+            </section>         
         </main>
         <footer>
             <p>
@@ -70,5 +104,6 @@
                 <img src="images/messager-logo.png" alt="messenger">
             </a>
         </footer>
+      </div>
     </body>
 </html>
