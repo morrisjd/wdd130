@@ -35,18 +35,23 @@ header nav {
     text-align: center;
     margin-right: 1px;
     background-color: lightgray;
+    color: blue;
     width: 100px;
     line-height: 40px;
   }
+#buttons li:hover {
+    background-color: lightpink;
+    color: darkred;
+}
+
 #buttons li a {
     text-decoration: none;
     display: block;
   }
-
 .about {
     grid-area: about;
     border-radius: 5px;
-    background-color: lightyellow;
+    background-color: yellow;
 }
 .about h1 {
     padding-left: 350px;
@@ -59,23 +64,27 @@ header nav {
 .about article p{
     width: 70%;
     padding-left: 20px;
-    color: blue;
+    color: navy;
 }
 .about article img {
     max-width: 200px;
     max-height: 100px;
 }
+.history {
+    background-color: lightsalmon;
+}
 .history h2 {
+    padding-top: 20px;
     padding-left: 450px;
 }
 .history article {
-    background-color: lightsalmon;
     display: flex;
 }
 .text1 {
     grid-area: text1;
     max-width: 30%;
     padding: 20px;
+    color: navy;
 }
 .river img {
     grid-area: history;
@@ -87,6 +96,10 @@ header nav {
     grid-area: text2;
     max-width: 30%;
     padding: 20px;
+    color: navy;
+}
+.adventure {
+    background-color: lightgreen;
 }
 .adventure h2 {
     padding-left: 350px;
@@ -101,6 +114,142 @@ header nav {
 .figures {
     display: flex;
     flex-wrap: wrap;
+}
+.hero {
+    padding-left:150px;
+    background-color: yellow;
+}
+.info {
+    background-color: lightsalmon;
+}
+.info Form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+    display: grid;
+}
+.info fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 20ps;
+    border: 1px solid black;
+    padding: 20px;
+}
+.info legend {
+    padding: 10px;
+    color: navy;
+    font-size: 20px;
+}
+.scenery {
+    background-color: lightgreen;
+}
+.scenery img {
+    max-width: 400px;
+    max-height: 250px;
+    padding-left: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+.scenery scenic-pics {
+    display: flex;
+    flex-wrap: wrap;
+}
+.scenery h2 {
+    padding-left: 350px;
+    align-content: center;
+}
+.trips {
+    background-color: violet;
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.trips img {
+    max-width: 600px;
+}
+.our-contacts {
+    background-color: yellow;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contact-head {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.office {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.staff-pics {
+    display: flex;
+}
+.staff-pics img {
+    width: 250px;
+    height: 150px;
+}
+.user {
+    background-color: lightpink;
+}
+.user Form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+    display: grid;
+}
+.user fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 20ps;
+    border: 1px solid black;
+    padding: 20px;
+}
+.user legend {
+    padding: 10px;
+    color: navy;
+    font-size: 20px;
+}
+.user label, input, button, select, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.user label {
+    text-align: right;
+    padding-right: 20px;
+}
+.user input, select, textarea {
+    padding: 10px;
+    font-size: 25px;
+}
+.user select input[type="radio"] {
+    display: none;
+}
+.user select label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #007BFF;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+.user button{
+    margin: 20px;
+    border: none;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 15px;
+}
+.user button:hover {
+    background-color: blue;
 }
 footer {
     grid-area: footer;

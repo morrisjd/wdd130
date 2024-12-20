@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>John Morris | Poll Form</title>
+        <meta name="description" content="Collecting information for a poll">
+        <meta name="author" content="John Morris">
+        <link rel="stylesheet" href="styles/poll-form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://gstatic.com" crossorigin>
+        <link href="fonts.googleapis.com/css2?family=roboto:wght@400;700&family=montserrat:400@;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Your email</label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <select>
+                        <label></label>
+                        <label>Microsoft Edge: <input type="radio" name="browser" checked></label>
+                        <label>Google Chrome: <input type="radio" name="browser"></label>
+                        <label>Firefox: <input type="radio" name="browser"></label>
+                    </select>
+                    <label>Do you have a household pet?: <input type="checkbox" name="pet"></label>
+                    <textarea rows="4" placeholder="Name the places you have lived">
+                    </textarea>
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>         
+        </main>
+        <footer>
+            <p>
+                &copy;2024 Form - User poll activity John Morris
+            </p>
+        </footer>
+    </body>
+</html>
